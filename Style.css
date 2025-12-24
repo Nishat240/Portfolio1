@@ -1,5 +1,45 @@
 .Now{
-    background-color: rgb(122, 113, 173);
+      background-color: rgb(155, 172, 188);
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+.container{
+    display:flex ;
+    gap: 20px
+    ;
+}
+.box{
+    background-color: rgb(116, 139, 131);
+    padding: 20px;
+    border-radius: 20px;
+}
+ul{
+    color: rgb(192, 124, 35);
+}
+ol{
+    color: rgb(49, 48, 131);
+}
+img{
+  display: block; 
+  margin-left: auto;
+  /* margin-right: auto;  */
+  width: 30%; 
+  border-radius: 50px;
+  height: 200px;
+}
+article{
+    display: flex;
+    margin-left: 45%;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    width: 300px;
+    height: 200px;
+    background-color: rgb(150, 149, 160);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    
 }
