@@ -1,5 +1,6 @@
 .Now{
-      background-color: rgb(155, 172, 188);
+      /* background-color: rgb(155, 172, 188); */
+
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
@@ -22,15 +23,14 @@ ol{
 }
 img{
   display: block; 
-  margin-left: auto;
-  /* margin-right: auto;  */
+  margin-right: auto;
   width: 30%; 
   border-radius: 50px;
   height: 200px;
 }
 article{
     display: flex;
-    margin-left: 45%;
+    margin-left: 35%;
     flex-direction: column;
     justify-content: center; 
     align-items: center;     
@@ -43,3 +43,14 @@ article{
     text-align: center;
     
 }
+h1{
+    color: rgb(25, 25, 118);
+}
+.Okk{
+    color: rgba(49, 10, 225, 0.98);
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    color: blue
+}    
