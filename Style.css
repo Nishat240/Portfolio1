@@ -54,7 +54,7 @@ h1{
     color: blue
 }    
 .What{
-      display: flex;
+    display: flex;
     margin-left: 35%;
     flex-direction: column;
     justify-content: center; 
@@ -69,7 +69,7 @@ h1{
 }
 .LOL{
     display: flex;
-    row-gap: 35px;
+    justify-content: space-between;
     
     
 }
@@ -81,7 +81,7 @@ h1{
     background-color: rgb(85, 84, 105);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
 }
 .else{
     margin-right: 10px;
@@ -91,7 +91,6 @@ h1{
     background-color: rgb(85, 84, 105);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
 .call{
@@ -103,5 +102,12 @@ h1{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+.BOO{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 
 }
